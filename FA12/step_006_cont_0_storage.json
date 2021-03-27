@@ -1,0 +1,53 @@
+{
+  "prim": "Pair",
+  "args": [
+    {
+      "prim": "Pair",
+      "args": [
+        { "string": "tz1hdQscorfqMzFqYxnrApuS5i6QSTuoAp3w" },
+        {
+          "prim": "Pair",
+          "args": [
+            [],
+            [
+              { "prim": "Elt", "args": [ { "string": "" }, { "bytes": "74657a6f732d73746f726167653a64617461" } ] },
+              { "prim": "Elt", "args": [ { "string": "data" }, { "bytes": "00" } ] }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prim": "Pair",
+      "args": [
+        { "prim": "False" },
+        {
+          "prim": "Pair",
+          "args": [
+            [
+              {
+                "prim": "Elt",
+                "args": [
+                  { "int": "0" },
+                  {
+                    "prim": "Pair",
+                    "args": [
+                      { "int": "0" },
+                      [
+                        { "prim": "Elt", "args": [ { "string": "decimals" }, { "bytes": "00" } ] },
+                        { "prim": "Elt", "args": [ { "string": "icon" }, { "bytes": "00" } ] },
+                        { "prim": "Elt", "args": [ { "string": "name" }, { "bytes": "00" } ] },
+                        { "prim": "Elt", "args": [ { "string": "symbol" }, { "bytes": "00" } ] }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            { "int": "0" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Creating contract
+ -> (Pair (Pair "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" {}) (Pair False 0))
+ => ./deposit_-_can_deposit_and_withdraw_from_one_account/step_000_cont_0_storage.tz 1
+ => ./deposit_-_can_deposit_and_withdraw_from_one_account/step_000_cont_0_storage.json 4
+ => ./deposit_-_can_deposit_and_withdraw_from_one_account/step_000_cont_0_sizes.csv 2
+ => ./deposit_-_can_deposit_and_withdraw_from_one_account/step_000_cont_0_storage.py 1
+ => ./deposit_-_can_deposit_and_withdraw_from_one_account/step_000_cont_0_types.py 7
+ => ./deposit_-_can_deposit_and_withdraw_from_one_account/step_000_cont_0_contract.tz 795
+ => ./deposit_-_can_deposit_and_withdraw_from_one_account/step_000_cont_0_contract.json 842
+ => ./deposit_-_can_deposit_and_withdraw_from_one_account/step_000_cont_0_contract.py 79
+ !!! Python Error: name 'totalSupply' is not defined

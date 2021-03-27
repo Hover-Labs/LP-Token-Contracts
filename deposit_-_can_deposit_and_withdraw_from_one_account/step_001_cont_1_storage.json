@@ -1,0 +1,25 @@
+{
+  "prim": "Pair",
+  "args": [
+    {
+      "prim": "Pair",
+      "args": [
+        { "prim": "Pair", "args": [ { "string": "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" }, [] ] },
+        {
+          "prim": "Pair",
+          "args": [
+            { "string": "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" },
+            { "prim": "Pair", "args": [ { "string": "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" }, { "string": "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" } ] }
+          ]
+        }
+      ]
+    },
+    {
+      "prim": "Pair",
+      "args": [
+        { "prim": "Pair", "args": [ { "prim": "False" }, { "int": "0" } ] },
+        { "prim": "Pair", "args": [ { "string": "KT1FAKEooooFAKEzSTATiCzSmartPyxCUdM4" }, { "prim": "Pair", "args": [ { "int": "0" }, { "int": "0" } ] } ] }
+      ]
+    }
+  ]
+}

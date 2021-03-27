@@ -1,0 +1,36 @@
+Creating contract
+ -> (Pair (Pair "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" {}) (Pair False 0))
+ => ./updateBalance_-_updates_balance/step_000_cont_0_storage.tz 1
+ => ./updateBalance_-_updates_balance/step_000_cont_0_storage.json 4
+ => ./updateBalance_-_updates_balance/step_000_cont_0_sizes.csv 2
+ => ./updateBalance_-_updates_balance/step_000_cont_0_storage.py 1
+ => ./updateBalance_-_updates_balance/step_000_cont_0_types.py 7
+ => ./updateBalance_-_updates_balance/step_000_cont_0_contract.tz 795
+ => ./updateBalance_-_updates_balance/step_000_cont_0_contract.json 842
+ => ./updateBalance_-_updates_balance/step_000_cont_0_contract.py 79
+Creating contract
+ -> (Pair (Pair "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" (Pair {} False)) (Pair (Pair 0 "KT1FAKEooooFAKEzSTATiCzSmartPyxCUdM4") (Pair 0 0)))
+ => ./updateBalance_-_updates_balance/step_001_cont_1_storage.tz 1
+ => ./updateBalance_-_updates_balance/step_001_cont_1_storage.json 13
+ => ./updateBalance_-_updates_balance/step_001_cont_1_sizes.csv 2
+ => ./updateBalance_-_updates_balance/step_001_cont_1_storage.py 1
+ => ./updateBalance_-_updates_balance/step_001_cont_1_types.py 7
+ => ./updateBalance_-_updates_balance/step_001_cont_1_contract.tz 1216
+ => ./updateBalance_-_updates_balance/step_001_cont_1_contract.json 1275
+ => ./updateBalance_-_updates_balance/step_001_cont_1_contract.py 117
+ => ./updateBalance_-_updates_balance/step_002_cont_0_params.py 1
+ => ./updateBalance_-_updates_balance/step_002_cont_0_params.tz 1
+ => ./updateBalance_-_updates_balance/step_002_cont_0_params.json 1
+Executing mint(sp.record(address = sp.address('KT1FAKEooo1FAKEzSTATiCzSmartPyxAh632'), value = 10))...
+ -> (Pair (Pair "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" {Elt "KT1FAKEooo1FAKEzSTATiCzSmartPyxAh632" (Pair {} 10)}) (Pair False 10))
+ => ./updateBalance_-_updates_balance/step_003_cont_1_params.py 1
+ => ./updateBalance_-_updates_balance/step_003_cont_1_params.tz 1
+ => ./updateBalance_-_updates_balance/step_003_cont_1_params.json 1
+Executing updateBalance(sp.unit)...
+ -> (Pair (Pair "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" (Pair {} False)) (Pair (Pair 1 "KT1FAKEooooFAKEzSTATiCzSmartPyxCUdM4") (Pair 0 0)))
+Executing getBalance((sp.address('KT1FAKEooo1FAKEzSTATiCzSmartPyxAh632'), sp.contract(sp.TNat, sp.address('KT1FAKEooo1FAKEzSTATiCzSmartPyxAh632%updateBalance_callback')).open_some()))...
+ -> (Pair (Pair "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" {Elt "KT1FAKEooo1FAKEzSTATiCzSmartPyxAh632" (Pair {} 10)}) (Pair False 10))
+Executing updateBalance_callback(10)...
+ -> (Pair (Pair "tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf" (Pair {} False)) (Pair (Pair 0 "KT1FAKEooooFAKEzSTATiCzSmartPyxCUdM4") (Pair 0 10)))
+Verifying sp.contract_data(1).underlyingBalance == 10...
+ OK
