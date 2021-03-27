@@ -1,1 +1,0 @@
-sp.record(administrator = sp.address('tz1abmz7jiCV2GH2u81LRrGgAFFgvQgiDiaf'), balances = {}, paused = False, state = 0, tokenAddress = sp.address("KT1FAKEooooFAKEzSTATiCzSmartPyxCUdM4"), totalSupply = 0, underlyingBalance = 0)

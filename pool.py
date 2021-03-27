@@ -788,7 +788,7 @@ if __name__ == "__main__":
   # redeem
   ################################################################
 
-  @sp.add_test(name="withdraw - can deposit and withdraw from one account")
+  @sp.add_test(name="redeem - can deposit and withdraw from one account")
   def test():
     scenario = sp.test_scenario()
 
@@ -1629,4 +1629,4 @@ if __name__ == "__main__":
     scenario.verify(token.data.balances[Addresses.BOB_ADDRESS].balance == sp.nat(47))
     scenario.verify(token.data.balances[Addresses.CHARLIE_ADDRESS].balance == sp.nat(21))
 
-  sp.add_compilation_target("PoolContract", PoolContract())
+  sp.add_compilation_target("pool", PoolContract())

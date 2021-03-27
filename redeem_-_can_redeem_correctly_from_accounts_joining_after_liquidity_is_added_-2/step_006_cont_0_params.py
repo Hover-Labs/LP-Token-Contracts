@@ -1,1 +1,0 @@
-sp.record(spender = sp.address("KT1FAKEooo1FAKEzSTATiCzSmartPyxAh632"), value = 40)
